@@ -5,8 +5,8 @@
         <h2>About Me</h2>
 
         <h4>　　就读于北京大学信息管理系，主修信息管理与信息系统专业。
-        此博客用于分享学习经验以及优秀的开源项目。个人学习笔记和总结使用
-        <a href="https://1drv.ms/u/s!AjD2d33heRm5iFyJ-ieTbnAxrHd5">OneNote</a>进行管理，相信未来技能树将不断的扩张 :D</h4>
+        此博客用于分享学习经验以及优秀的开源项目。
+        </h4>
 
         <h2>Contact</h2>
 
@@ -43,32 +43,6 @@
         </div>
         {% endif %}
 
-        {% if site.skill_j2ee_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">J2EE Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_mobile_app_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mobile Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_mobile_app_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
         {% if site.skill_web_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -76,6 +50,19 @@
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+		
+		{% if site.skill_other_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Other Keywords</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_other_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
