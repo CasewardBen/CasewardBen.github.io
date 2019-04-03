@@ -6,22 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
-github_username: # ex. DONGChuan
-description: description_of_your_web_site
-favicon: favicon.png # Image must be in assets/images
-repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+title: 甲壳虫爱上了夏天
+name: Wayne Chu
+email: waynechu1996@gmail.com
+location: Jiangxi, China
+company: Henan University
+company_url: http://www.henu.edu.cn/
+github_url: https://github.com/Z-Beatles
+description: This is a personal website of Wayne Chu | 个人博客，用于记录学习笔记
+favicon: favicon.png
+repository: Z-Beatles/Z-Beatles.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+url: https://www.waynechu.cn
 
 ## Gem
 gems:
@@ -48,7 +47,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: z-beatles.disqus.com
 
 # Pagination
 paginate: 10
@@ -87,7 +86,8 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_software_keywords: [Java, Python, Android, Git, Linux Shell, Design Patterns, DevOps, Docker, JMeter]
+skill_dba_keywords: [MySQL, PostgreSQL, Oracle, SQL Server, SQLite, Redis Sentinel, Redis Cluster]
+skill_j2ee_keywords: [Spring, Spring MVC, MyBatis, JSP, RESTful Api, Spring Boot, Motan, Dubbo, Spring Data *, Spring Security, Spring Sociol]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, Boostrap, Vue.js]
+skill_mobile_app_keywords: [Android, WebApp]
