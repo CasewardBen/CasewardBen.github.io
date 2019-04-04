@@ -13,8 +13,9 @@ location: Beijing, China
 company: Peking University
 company_url: http://www.pku.edu.cn/
 github_url: https://github.com/CasewardBen
-description: This is a personal website of Wayne Chu | 个人博客，用于记录学习笔记
-favicon: favicon.png
+github_username: CasewardBen
+description: This is a personal website of Caseward | 个人博客，用于记录学习笔记
+favicon: favicon.png # Image must be in assets/images
 repository: CasewardBen/CasewardBen.github.io
 
 # The base hostname & protocol for your site
@@ -47,7 +48,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: z-beatles.disqus.com
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
