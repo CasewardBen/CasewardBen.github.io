@@ -8,7 +8,7 @@
 # Site settings
 title: Caseward·Ben
 name: Caseward
-email: 18119769627@163.com
+email: bianenhua@gmail.com
 location: Beijing, China
 company: Peking University
 company_url: http://www.pku.edu.cn/
@@ -82,7 +82,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+      tracking_id : UA-137796979-1
 
 
 # For about.html. Fell free to create your own!
