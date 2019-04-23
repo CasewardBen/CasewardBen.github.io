@@ -42,7 +42,7 @@ py manage.py startapp yourAppName
 html放在templates里，其他css啊，JavaScript啊都叫静态文件，放在static里，你可以在static里在新建一个css文件夹和一个js文件夹来区分，
 然后html里怎么调用这些静态文件呢
 在html开头调用外部静态文件之前加一句load static，用{% 括起来
-```html
+```python
 <link rel="stylesheet" href="{% static 'css/yourCss.css' %}" >
 ```
 第一句就是提供一个静态的默认路径，就是我们上面新建的那个static文件夹，
