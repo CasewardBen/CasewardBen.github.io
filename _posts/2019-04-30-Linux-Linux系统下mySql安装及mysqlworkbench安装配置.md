@@ -1,11 +1,11 @@
 ---
 layout: post
-title: linux系统下mysql安装及mysql workbench安装配置
+title: Linux系统下mysql安装及mysql workbench安装配置
 category: big data
 tags: [linux][datebase]
 ---
 
-系统环境：ubuntu16
+>系统环境：ubuntu16
 
 <br/>
 
