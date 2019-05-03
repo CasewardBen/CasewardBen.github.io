@@ -2,7 +2,7 @@
 layout: post
 title: linux之centos版本网络配置问题
 category: linux
-tages: [centos]
+tags: [centos]
 ---
 
 不同版本的centos的网络脚本文件名称存在一定的区别，
